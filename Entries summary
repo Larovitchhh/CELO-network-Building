@@ -1,0 +1,11 @@
+The repository includes:Documentation: Guides on Celo basics, setup, and deployment.
+Example Projects:NFT marketplace using cUSD.
+DeFi lending/borrowing dApp.
+Valora wallet integration for mobile payments.
+Stablecoin payment system.
+
+Scripts: Tools for deploying contracts and requesting testnet funds.
+Resources: Links to Celo’s official tools and documentation.
+
+This structure ensures the repository is a valuable resource for developers building on Celo, with practical examples and clear instructions. If you need help implementing specific parts (e.g., writing a particular smart contract or setting up GitHub Actions), let me know!
+
