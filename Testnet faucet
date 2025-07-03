@@ -1,0 +1,6 @@
+const { newKit } = require('@celo/contractkit');
+const kit = newKit('https://alfajores-forno.celo-testnet.org');
+async function requestTestnetFunds(address) {
+  console.log(`Request testnet funds for ${address} at https://faucet.celo.org`);
+}
+requestTestnetFunds('YOUR_ADDRESS');
