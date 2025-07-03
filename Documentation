@@ -1,0 +1,6 @@
+# Introduction to Celo
+Celo is a layer-1 blockchain (transitioning to an Ethereum L2) focused on mobile-first financial inclusion. It uses a Proof of Stake (PoS) consensus mechanism and supports EVM-compatible smart contracts. Key features include:
+- Native stablecoins (e.g., cUSD, cEUR) for payments.
+- Phone number-based identity attestation.
+- Gas fees payable in stablecoins for user convenience.
+Learn more at [docs.celo.org](https://docs.celo.org).
