@@ -1,0 +1,13 @@
+# Setting Up Your Celo Development Environment
+## Prerequisites
+- Node.js (v16 or higher)
+- Yarn or npm
+- A code editor (e.g., VS Code)
+- Metamask or another Celo-compatible wallet
+- Docker (optional for running a local node)
+
+## Steps
+1. Install Celo CLI: `npm install -g @celo/celocli`
+2. Set up a wallet and fund it with testnet Celo Gold via the [Alfajores faucet](https://faucet.celo.org).
+3. Configure your project to connect to the Alfajores testnet (see `docs/alfajores-testnet.md`).
+4. Install Celo Composer: `npx @celo/celo-composer@latest create`
