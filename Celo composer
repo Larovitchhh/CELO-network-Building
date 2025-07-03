@@ -1,0 +1,10 @@
+# Building with Celo Composer
+[Celo Composer](https://github.com/celo-org/celo-composer) is a starter kit for building, deploying, and upgrading dApps on Celo. It supports frameworks like React, Angular, and Flutter.
+
+## Quickstart
+1. Run `npx @celo/celo-composer@latest create` to scaffold a new project.
+2. Choose a framework (e.g., React) and configure the network (e.g., Alfajores testnet).
+3. Deploy a sample smart contract using Hardhat or Truffle: `npx hardhat deploy --network alfajores`.
+4. Test the frontend integration with `npm start`.
+
+See [Celo Documentation](https://docs.celo.org/developer/deploy) for more details.
