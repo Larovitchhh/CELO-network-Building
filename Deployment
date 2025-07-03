@@ -1,0 +1,9 @@
+# Deploying dApps on Celo
+Celo supports Ethereum-compatible tools like Hardhat, Truffle, and Remix for deploying smart contracts.
+
+## Steps
+1. Write your smart contract in Solidity (e.g., see `examples/nft-marketplace/contracts/`).
+2. Compile and deploy using Hardhat:
+   ```bash
+   npx hardhat compile
+   npx hardhat deploy --network alfajores
