@@ -1,0 +1,15 @@
+# Using the Alfajores Testnet
+The Alfajores testnet is Celo’s developer-friendly environment for testing dApps. It mirrors the Mainnet but uses testnet tokens.
+
+## Steps
+1. Get testnet Celo Gold from the [Alfajores faucet](https://faucet.celo.org).
+2. Configure your project’s network settings in `hardhat.config.js` or `truffle-config.js`:
+   ```javascript
+   module.exports = {
+     networks: {
+       alfajores: {
+         url: "https://alfajores-forno.celo-testnet.org",
+         accounts: [YOUR_PRIVATE_KEY]
+       }
+     }
+   };
